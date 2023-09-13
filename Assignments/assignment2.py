@@ -51,15 +51,24 @@ print(f"{dollars} dollars is equal to {local_currency} in local currency.")
 # Program 2: Convert Temperature (Celsius to Fahrenheit and Vice Versa)
 # Program to Convert Fahrenheit to Celsius
 
+# Input the temperature in Celsius from the user and convert it to a float
 celsius_temperature = float(input("Enter the temperature value: "))
+
+# Convert the Celsius temperature to Fahrenheit using the formula (Celsius * 9/5) + 32
 fahrenheit = float(celsius_temperature) * 9/5 + 32
+
+# Display the result in Fahrenheit and its equivalent in Celsius
 print(f"{fahrenheit} Fahrenheit is equal to {celsius_temperature} Celsius")
 
 # Program to Convert Celsius To Fahrenheit
 
+# Input the temperature in Fahrenheit from the user and convert it to a float
 fahrenheit_temperature = float(input("Enter the temperature value: "))
+
+# Convert the Fahrenheit temperature to Celsius using the formula (Fahrenheit - 32) * 5/9
 celsius = (float(fahrenheit_temperature) - 32) * 5/9
 
+# Display the result in Celsius and its equivalent in Fahrenheit
 print(f"{celsius} Celsius is equal to {fahrenheit_temperature} Fahrenheit")
 
 
